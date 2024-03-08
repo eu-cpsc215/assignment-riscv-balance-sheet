@@ -1,6 +1,6 @@
 # RISC-V - Balance Sheet
 
-The goal of the assignment is to write a simple RISC-V program that performs addition and subtraction.
+The goal of this assignment is to write a simple RISC-V program that performs addition and subtraction.
 
 ## Setup
 
