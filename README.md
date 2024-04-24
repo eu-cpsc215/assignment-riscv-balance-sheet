@@ -12,26 +12,21 @@ Once loaded, click the `Select processor` icon in the toolbar to configure the s
 
 ## Requirements
 
-Define the following variables in the **read-only data section** using the `.rodata` directive.
-
-| Variable Name           | Data Size | Initial Value |
-| :---------------------- | :-------- | :------------ |
-| `NonCurrentAssets`      | 32 bits   | `380100`      |
-| `AccountsReceivable`    | 32 bits   | `1357`        |
-| `Cash`                  | 32 bits   | `92524`       |
-| `NonCurrentLiabilities` | 32 bits   | `207120`      |
-| `AccountsPayable`       | 32 bits   | `122141`      |
-| `TaxLiabilities`        | 32 bits   | `1892`        |
-| `ShareCapital`          | 32 bits   | `512`         |
-| `RetainedEarnings`      | 32 bits   | `142316`      |
-
 Define the following variables in the **read/write data section** using the `.data` directive.
 
-| Variable Name            | Data Size | Initial Value |
-| :----------------------- | :-------- | :------------ |
-| `TotalAssets`            | 32 bits   | `0`           |
-| `TotalLiabilities`       | 32 bits   | `0`           |
-| `TotalShareholderEquity` | 32 bits   | `0`           |
+| Variable Name | Data Size | Initial Value |
+|:----|:--|:--|
+| `NonCurrentAssets` | 32 bits | `380100` |
+| `AccountsReceivable` | 32 bits | `1357` |
+| `Cash` | 32 bits | `92524` |
+| `NonCurrentLiabilities` | 32 bits | `207120` |
+| `AccountsPayable`| 32 bits | `122141` |
+| `TaxLiabilities` | 32 bits | `1892` |
+| `ShareCapital` | 32 bits | `512` |
+| `RetainedEarnings` | 32 bits | `142316` |
+| `TotalAssets` | 32 bits | `0` |
+| `TotalLiabilities` | 32 bits | `0` |
+| `TotalShareholderEquity` | 32 bits | `0` |
 
 The variables represent the values on a balance sheet for a company. The program must compute the total of each section in the balance sheet and update the associated variables:
 
